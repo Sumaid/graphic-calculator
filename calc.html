@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel="stylesheet" href="calc.css">
+	</head>
+	<body>
+		<table>
+		<tr>	 
+			<th id="red" onclick='remove();'>C</th>
+			<th colspan="3" id="screen">
+				<div id="scr1"></div><div id="scr2"></div><div id="scr3"></div><div id="scr4"></div><div id="scr5"></div><div id="scr6"></div><div id="scr7"></div><div id="scr8"></div><div id="scr9"></div><div id="scr10"></div></th>
+		</tr>
+		<tr>
+			<td onclick='numscreen(7);'>7</td>
+			<td onclick='numscreen(8);'>8</td>
+			<td onclick='numscreen(9);'>9</td>
+			<td id="plus" onclick='opscreen("+"),addition();'>+</td>
+		</tr>
+		<tr>
+                        <td onclick='numscreen(4);'>4</td>
+                        <td onclick='numscreen(5);'>5</td>
+                        <td onclick='numscreen(6);'>6</td>
+                        <td id="minus" onclick='opscreen("-"),subtract();'>-</td>
+                </tr>
+                <tr>
+                        <td onclick='numscreen(1);'>1</td>
+                        <td onclick='numscreen(2);'>2</td>
+                        <td onclick='numscreen(3);'>3</td>
+                        <td id="divide" onclick='opscreen("/"),divide();'>/</td>
+                </tr>
+                <tr>
+                        <td onclick='numscreen(0);'>0</td>
+                        <td onclick='numscreen(.);'>.</td>
+                        <td id="equal" onclick='result();'>=</td>
+                        <td id="multiply" onclick='opscreen("x"),mutliply();'>x</td>
+                </tr>
+		</table>
+                <script type="text/javascript" src="cal.js"></script>
+
+	</body>
+	<html>
+
+		

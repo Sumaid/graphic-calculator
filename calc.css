@@ -1,0 +1,95 @@
+#screen {
+	background-color: #8181d2;
+	position: relative;
+}
+
+#scr2{
+	left: 5vh;
+}
+
+#scr3{
+        left: 10vh;
+}
+
+#scr4{
+        left: 15vh;
+}
+
+#scr5{
+        left: 20vh;
+}
+
+#scr6{
+        left: 25vh;
+}
+
+#scr7{
+        left: 30vh;
+}
+#scr8{
+        left: 35vh;
+}
+#scr9{
+        left: 40vh;
+}
+#scr10{
+        left: 45vh;
+}
+
+div {
+	width: 5vh;
+	float: left;
+	position: absolute;
+height: 100%;
+top: 0;
+margin: 0;
+line-height: 15vh;
+font-size: 3vh;
+	}
+td {
+	cursor: pointer;
+}
+body {
+	position: relative;
+	height: 90vh;
+     }
+
+table {
+	position: absolute;
+	left: 30%;
+background-color: #6eaee6;
+top: 20%;
+width: 70vh;
+height: 70vh;
+text-align: center;
+      }
+
+td {
+	background-color: white;
+	}
+
+#plus {
+	background-color: #f8d7dd;
+}
+
+#minus {
+        background-color: #f8d7dd;
+}
+
+#multiply {
+        background-color: #f8d7dd;
+}
+
+#divide {
+        background-color: #f8d7dd;
+}
+
+#red {
+	background-color: red;
+	width: 15vh;
+	cursor: pointer;
+}
+
+#equal {
+	background-color: green;
+}
